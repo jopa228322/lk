@@ -252,17 +252,16 @@ main{margin-bottom: 420px;
 	-ms-align-self: center;
 	align-self: center;
 }
-.status-right-but{
-	padding: 10px 21px;
-	background-color: #2e3036;
-	border-radius: 5px;
-}
+
 .status-right-but a{
 	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
 	font-family: "OpenSans";
 	font-size: 12px;
+	padding: 10px 21px;
+	background-color: #2e3036;
+	border-radius: 5px;
 }
 .bord-tour-end{
 	border-bottom: 15px solid #fe7373;
@@ -418,3 +417,172 @@ main{margin-bottom: 420px;
 	top: 5px;
     left: 15px;
 }
+/*************************************************************************************************/
+.add-new-usl{
+	font-size: 14px;
+	font-family: "OpenSans";
+	color: #363636;
+	font-weight: 200;
+	margin: 21px 0;
+}
+.valid-r{
+	background-color: #7ec856;
+	padding: 23px 0;
+	display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: "OpenSans";
+}
+.valid-r::before{
+	content: url(../images/suc-Icon.png);
+    margin-left: 30px;
+    margin-right: 15px;
+    background-color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: block;
+    font-size: 17px;
+    text-align: center;
+}
+.invalid-r{
+	background-color: #ff2d55;
+	padding: 23px 0;
+	display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: "OpenSans";
+}
+.invalid-r::before{
+	content: url(../images/error-Icon.png);
+    margin-left: 30px;
+    margin-right: 15px;
+    background-color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: block;
+    font-size: 17px;
+    text-align: center;
+}
+.new-usl-content{
+	background-color: #fff;
+	padding: 50px;
+}
+.form-all-content{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.form-left-content{
+	width: 55%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.form-lc-info p{
+	font-family: "OpenSans";
+	font-size: 14px;
+	color: rgba(54, 54, 54, 0.5);
+	margin: 0 0 10px 0;
+	
+}
+#name-usl-inp{
+	padding: 15px 10px;
+	outline: 0;
+	border-radius: 10px;
+	border: 1px solid rgba(54, 54, 54, 0.5);
+	font-family: "OpenSansLight";
+	font-size: 14px;
+	color: #2e3036;
+	margin-bottom: 15px;
+	width: 289px;
+	background-color: #fafafa;
+}
+#video-usl-inp{
+	padding: 15px 10px;
+	outline: 0;
+	border-radius: 10px;
+	border: 1px solid rgba(54, 54, 54, 0.5);
+	font-family: "OpenSansLight";
+	font-size: 14px;
+	color: #2e3036;
+	margin-bottom: 15px;
+	width: 289px;
+	background-color: #fafafa;
+}
+#form-lc-but{
+	background-color: #0081ff;
+	outline: 0;
+	border: 0;
+	text-align: center;
+	padding: 17px 0;
+	width: 100%;
+	color: #fff;
+	border-radius: 10px;
+	margin-top: 3px;
+}
+.form-lc-tarea p{
+	font-family: "OpenSans";
+	font-size: 14px;
+	color: rgba(54, 54, 54, 0.5);
+	margin: 0 0 10px 0;
+}
+#textar-form-lc{
+	height: 210px;
+	width: 290px;
+	border-radius: 10px;
+	outline: 0;
+	background-color: #fafafa;
+
+}
+#form-lc-but:hover{
+	cursor: pointer;
+}
+.form-right-content{
+	align-self: center;
+}
+.form-add-photo{
+	width: 420px;
+	height: 209px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border: 1px dashed rgba(46, 48, 54, 0.5);
+	border-radius: 10px;	
+	background-size: 100% 100%;
+	margin-top: 27px;
+}
+.form-add-photo:hover{
+	cursor: pointer;
+}
+.form-add-photo-plus{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.add-ph-plus{
+	width: 75px;
+	height: 75px;
+	border: 1px dashed rgba(46, 48, 54, 0.5);
+	border-radius: 10px;
+	margin-top: 25px;
+	background-size: 100% 100%;
+}
+.add-ph-plus:hover{
+	cursor: pointer
+}
+
+
+
+
