@@ -542,6 +542,10 @@ main{margin-bottom: 420px;
 	border-radius: 10px;
 	outline: 0;
 	background-color: #fafafa;
+	padding: 15px 50px 15px 15px;
+	font-family: "OpenSansLight";
+	font-size: 14px;
+	color: #2e3036;
 
 }
 #form-lc-but:hover{
