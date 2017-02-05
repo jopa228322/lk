@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&subset=cyrillic');
+/* font-family: 'Open Sans', sans-serif; */
+@font-face {
+	font-family: "ProximaNova";
+	src: url("../fonts/ProximaNova-Regular.ttf") format("truetype"),
+	url("../fonts/ProximaNova-Regular.woff") format("woff"),
+	url("../fonts/ProximaNova-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal
+}@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Regular.ttf") format("truetype");	
+	font-weight: normal;
+	font-style: normal
+}@font-face {
+	font-family: "OpenSansLight";
+	src: url("../fonts/OpenSans-Light.ttf") format("truetype");	
+	font-weight: normal;
+	font-style: normal
+}@font-face {
+	font-family: "OpenSansBold";
+	src: url("../fonts/OpenSans-Bold.ttf") format("truetype");	
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: "ProximaNova";
+	src: url("../fonts/ProximaNova-Bold.ttf") format("truetype"),
+	url("../fonts/ProximaNova-Bold.woff") format("woff"),
+	url("../fonts/ProximaNova-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	min-width: 1280px;
+	max-width: 1920px;
+	background-color: #fafafa;
+	margin: 0 auto;
+}
+main{margin-bottom: 420px;
+ z-index: 2;
+ background: #fafafa;
+}
+.centerBlock{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding-left: 26px;
+	padding-right: 26px;
+}
+.clearfix::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+/*********************************/
+.breadcrumbs{
+	display: flex;
+	text-decoration: none;	
+	margin-right: 50px;
+	align-items: center;
+}
+
+.breadcrumbsAll{
+	text-align: center;
+	height: 26px;	
+	margin-right: 7px;
+}
+.breadcrumbsAll a{
+	text-decoration: none;
+	color: #2e3036;
+	font-size: 12px;
+	display: inline-block;
+	font-family: "Open Sans";
+	margin: 0 10px;
+}
+.breadcrumbs-main{
+	text-align: center;
+	border: 1px dashed #bdbdbd;
+	border-right: transparent;
+	position: relative;
+	text-align: center;
+	height: 26px;	
+	margin-right: 16px;
+	width: 60px;
+}
+.proba{
+	transform: rotate(45deg);
+    height: 18px;
+    width: 19px;
+    border-top: 1px dashed #bdbdbd;
+    border-right: 1px dashed #bdbdbd;
+    position: absolute;
+    right: -12px;
+    bottom: 3px;
+}
+.seats{
+	border: 1px solid #bdbdbd;
+	border-style: dashed;
+}
+.bg-wh{
+	width: 100%;
+	background-color: #fff;
+    height: 127px;
+    margin-bottom: 40px;
+    box-shadow:  1px 1px 0px rgba(97, 97, 97, 0.06);
+}
+
+
+/*******   Верхняя панель ********/
+.top-panel{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.top-panel-user{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding:10px;
+}
+.name-user{
+	font-size: 16px;
+	font-family: "OpenSansLight";
+	color: #2e3036;
+	margin-bottom: 4px;
+}
+.mail-user{
+	font-size: 16px;
+	font-family: "OpenSansLight";
+	color: #2e3036;	
+}
+.panel-user-left{
+	text-align: right;
+	-ms-align-self: center;
+	align-self: center;
+}
+.panel-user-img{
+	margin: 0 7px 0 15px;
+}
+.panel-user-img img {
+	border-radius: 50%
+}
+/*******   Нижняя панель ********/
+.down-panel{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 16px;
+}
+.tab-panel-lk{
+	padding-bottom: 10px;
+   
+}
+.active-panel-lk{
+	 border-bottom: 3px solid #2e3036;
+}
+.tab-panel-lk a{
+	text-decoration: none;
+	font-family: "OpenSans";
+	font-size: 18px;
+	color: #2e3036;
+}
+/******************************************/
+.end-cont-after-top{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+
+}
+.end-cont-after-top{
+	margin-bottom: 20px;
+}
+.zakaz-name-tours{
+	margin-bottom: 25px;
+}
+.zakaz-name-tours h1{
+	margin: 0;
+	font-family: "OpenSansBold";
+	font-size: 23px;
+}
+.zakaz-content-tours{
+	margin-bottom: 40px;
+}
+.top-status-tour{
+	width: 49%;
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: 0px -3px 17px rgba(0, 0, 0, 0.05);
+
+}
+.top-status-name-zakaz{
+	margin-bottom: 29px;
+	margin-top: 0;
+	font-family: "OpenSansBold";
+	font-size: 23px;
+	color: #2e3036;
+}
+.top-status-center-content{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+#tour-end{
+	font-family: "OpenSans";
+	font-size: 16px;
+	color: #fe7373;
+	margin: 0 0 3px 0;
+}
+.left-content-date-tour{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+}
+.left-content-date-tour div{
+	margin-right: 7px;
+	font-size: 12px;
+	font-family: "OpenSans";
+	color: #2e3036;
+    letter-spacing: 0.6px;
+}
+.top-status-left-content{
+	-ms-align-self: center;
+	align-self: center;
+}
+.top-status-right-content{
+	-ms-align-self: center;
+	align-self: center;
+}
+.status-right-but{
+	padding: 10px 21px;
+	background-color: #2e3036;
+	border-radius: 5px;
+}
+.status-right-but a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "OpenSans";
+	font-size: 12px;
+}
+.bord-tour-end{
+	border-bottom: 15px solid #fe7373;
+}
+.bord-tour-counti{
+	border-bottom: 15px solid #f9c257;
+}
+.bord-tour-after{
+	border-bottom: 15px solid #03a9f4;
+}
+
+/*** Тур в процессе ***/
+
+.left-content-tour-counti p{
+	font-family: "OpenSans";
+	font-size: 16px;
+	color: #f9c257;
+	margin: 0 0 3px 0;s
+}
+
+
+/*** Тур скоро ***/
+
+.left-content-tour-after p{
+	font-family: "OpenSans";
+	font-size: 16px;
+	color: #03a9f4;
+	margin: 0 0 3px 0;
+}
+/*****************************************************/
+.content-lk-tours{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 10px;
+	margin-bottom: 20px;
+
+}
+.lk-tour{
+	width: 390px;
+	height: 242px;
+	position: relative;
+}
+.lk-tour-text{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(46, 48, 54, 0.7);
+	padding: 14px;
+}
+.lk-tour-text h3{
+	font-family: "OpenSansBold";
+	color: #fff;
+	font-size: 15.33px;
+	margin: 0;
+}
+.lk-tour-text p{
+	margin: 0;
+}
+.lk-tour-text a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.64);
+	font-size: 8.62px;
+	font-family: "OpenSansLight";
+}
+.lk-carousel{
+	position: relative;
+}
+.tour05-more{
+	height: 380px;
+	width: 100%;
+	background-image: url(../images/tour05-more.png);
+	position: relative;
+}
+.lk-tour05-content{
+	position: absolute;
+	top: 25%;
+	left: 415px;
+	padding:  12px;
+}
+.lk-tour05-content p{
+	margin: 0;
+	text-align: center;
+	color: #fff;
+	font-family: "OpenSansLight";
+	font-size: 16px;
+}
+.lk-name-tour{
+	font-size: 40px;
+	font-family: "OpenSans";
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	font-weight: 200;
+}
+.lk-tour05-but{
+	border-radius: 30px;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid #fff;
+	background: none;
+	color: #fff;
+	font-size: 16px;
+	font-family: "OpenSansBold";
+	padding: 14px 30px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 40px;
+	width: 204px;
+}
+.lk-tour05-but:hover{
+	cursor:pointer;
+}
+.next-carousel{
+    position: absolute;
+    top: 45%;
+    left: 36px;
+    width: 47px;
+    height: 47px;
+    color: #fff;
+    z-index: 7;
+    border: 2px solid #fff;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+}
+.prev-carousel{
+    position: absolute;
+    top: 45%;
+    right: 36px;
+    width: 47px;
+    height: 47px;
+    color: #fff;
+    z-index: 7;
+    border: 2px solid #fff;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+}
+.prev-carousel i{
+	font-size: 30px;
+	position: absolute;
+	top: 5px;
+    left: 18px;
+}
+.next-carousel i{
+	font-size: 30px;
+	position: absolute;
+	top: 5px;
+    left: 15px;
+}
