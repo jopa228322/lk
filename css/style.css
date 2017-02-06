@@ -499,7 +499,7 @@ main{margin-bottom: 420px;
 	padding: 15px 10px;
 	outline: 0;
 	border-radius: 10px;
-	border: 1px solid rgba(54, 54, 54, 0.5);
+	border: 1px solid #e1e1e1;
 	font-family: "OpenSansLight";
 	font-size: 14px;
 	color: #2e3036;
@@ -511,7 +511,7 @@ main{margin-bottom: 420px;
 	padding: 15px 10px;
 	outline: 0;
 	border-radius: 10px;
-	border: 1px solid rgba(54, 54, 54, 0.5);
+	border: 1px solid #e1e1e1;
 	font-family: "OpenSansLight";
 	font-size: 14px;
 	color: #2e3036;
@@ -546,6 +546,7 @@ main{margin-bottom: 420px;
 	font-family: "OpenSansLight";
 	font-size: 14px;
 	color: #2e3036;
+	border: 1px solid #e1e1e1;
 
 }
 #form-lc-but:hover{
@@ -559,7 +560,7 @@ main{margin-bottom: 420px;
 	height: 209px;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	border: 1px dashed rgba(46, 48, 54, 0.5);
+	border: 1px solid #e1e1e1;
 	border-radius: 10px;	
 	background-size: 100% 100%;
 	margin-top: 27px;
@@ -578,7 +579,7 @@ main{margin-bottom: 420px;
 .add-ph-plus{
 	width: 75px;
 	height: 75px;
-	border: 1px dashed rgba(46, 48, 54, 0.5);
+	border: 1px solid #e1e1e1;
 	border-radius: 10px;
 	margin-top: 25px;
 	background-size: 100% 100%;
@@ -586,7 +587,136 @@ main{margin-bottom: 420px;
 .add-ph-plus:hover{
 	cursor: pointer
 }
+/******************************************************************************************************/
+.edit-prof-content{
+	padding: 40px;
+	background-color: #fff;	
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.edit-prof-left-c{
+	width: 54%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.edit-prof-mail-name-fam{
+	width: 47.5%;
+}
+.edit-prof-zagol{
+	font-size: 14px;
+    font-family: "OpenSans";
+    color: #363636;
+    font-weight: 200;
+    margin: 21px 0;
+}
+#mail-edit-inp{
+	padding: 15px 10px;
+    outline: 0;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    font-family: "OpenSansLight";
+    font-size: 14px;
+    color: #2e3036;
+    margin-bottom: 15px;
+    width: 289px;
+    background-color: #fafafa;
+}
+#name-edit-inp{
+	padding: 15px 10px;
+    outline: 0;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    font-family: "OpenSansLight";
+    font-size: 14px;
+    color: #2e3036;
+    margin-bottom: 15px;
+    width: 289px;
+    background-color: #fafafa;
+}
+#fam-edit-inp{
+	padding: 15px 10px;
+    outline: 0;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    font-family: "OpenSansLight";
+    font-size: 14px;
+    color: #2e3036;
+    margin-bottom: 15px;
+    width: 289px;
+    background-color: #fafafa;
+}
+#form-edit-but{
+	background-color: #0081ff;
+    outline: 0;
+    border: 0;
+    text-align: center;
+    padding: 17px 0;
+    width: 100%;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+#form-edit-but:hover{
+	cursor: pointer;
+}
+#old-pas-edit-inp{
+	padding: 15px 10px;
+    outline: 0;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    font-family: "OpenSansLight";
+    font-size: 14px;
+    color: #2e3036;
+    margin-bottom: 15px;
+    width: 289px;
+    background-color: #fafafa;
+}
+#new-pas-edit-inp{
+	padding: 15px 10px;
+    outline: 0;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    font-family: "OpenSansLight";
+    font-size: 14px;
+    color: #2e3036;
+    margin-bottom: 15px;
+    width: 289px;
+    background-color: #fafafa;
+}
+#replay-pas-edit-inp{
+	padding: 15px 10px;
+    outline: 0;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    font-family: "OpenSansLight";
+    font-size: 14px;
+    color: #2e3036;
+    margin-bottom: 15px;
+    width: 289px;
+    background-color: #fafafa;
+}
+.edit-prof-right-c{
+	width: 460px;
+	height: 230px;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: absolute;
+    right: 40px;
+    top: 16%;
+    background-repeat: no-repeat;
 
-
+}
+.edit-prof-right-c:hover{
+	cursor: pointer;
+}
 
 
