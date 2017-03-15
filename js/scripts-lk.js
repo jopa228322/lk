@@ -33,8 +33,14 @@ $(formLcBut).on("click", function (e) {
         }).done(function(data) {
         	$(validAddUsl).fadeIn();
         	setTimeout(function(){
-        		$(inValidAddUsl).fadeOut();
-        			document.location.href='#';
+                $(".tab-panel-lk:nth-child(4)").removeClass("active-panel-lk");
+                $(".tab-panel-lk:nth-child(3)").addClass("active-panel-lk");
+                $.when($(".tab-item:nth-child(4)").fadeOut()).then(
+                    function() {
+                       $(".tab-item:nth-child(3)").fadeIn();
+                    }
+                );
+               
         		}, 2000);
         }).fail(function() {
             console.log('fail');
@@ -44,6 +50,9 @@ $(formLcBut).on("click", function (e) {
         	}, 2000);
         	
         });
-      
+         
         return false;
     }); 
+
+
+
